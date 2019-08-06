@@ -1,0 +1,17 @@
+<channel
+   name="test bug for git export"
+   guid="211BFB3783C1D2B59A42CA374C67045F"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_llp_listener
+      ack_vmd_path="C:/Program Files/iNTERFACEWARE/Iguana_607/autoack.vmd"
+      port="5348"
+      connection_timeout="30"
+      unlimited_connection_timeout="false"
+      ack_style="fast"
+      message_encoding="GB18030"/>
+</channel>
